@@ -1,5 +1,6 @@
 // Built-in data for India. Coordinates are [longitude, latitude].
-DATA.India = {x:[67,98],y:[6,37.5],fs:9,out:null,
+DATA.India = {x:[67,98],y:[6,37.5],fs:9,
+out:[[68,24],[70,23],[72,21],[73,18],[74,14],[77,8],[80,10],[81,13],[83,17],[87,21],[89,22],[92,26],[96,28],[94,29],[91,27],[88,25],[85,28],[82,30],[78,34],[75,35],[72,32],[70,29],[68,24]],
 rivers:[
 ['Ganga',null,[[79.1,30.9],[78.2,29.9],[80.3,26.4],[81.8,25.4],[83,25.3],[85.1,25.6],[87.9,24.8],[89,22.3]],'About 2,525 km from the Gangotri glacier to the Bay of Bengal. Its basin is among the most densely populated on Earth.'],
 ['Yamuna','Ganga',[[78.5,31],[77.2,28.6],[78,27.2],[80.5,26],[81.8,25.4]],'Flows past Delhi and Agra and joins the Ganga at Prayagraj.'],
