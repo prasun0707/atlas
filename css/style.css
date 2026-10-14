@@ -28,3 +28,12 @@ svg{display:block;width:100%;height:auto}
 .pick input,.form input,.form select,.form textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px;width:100%}
 .form .tabs{margin:0}
 .adding{cursor:crosshair}.adding .pt,.adding .rv{pointer-events:none}
+/* Natural geography atlas styling */
+#map {
+  min-height: 70vh;
+  background: #dce9e7;
+}
+
+.leaflet-control-attribution {
+  font-size: 10px;
+}
