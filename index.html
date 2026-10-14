@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Land and Water Atlas</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<main>
+<h1>Land and Water Atlas</h1>
+<p class="sub">A section for each country, plus a common World section: rivers with their tributaries, peaks, passes, valleys, coasts and national parks.</p>
+<div class="tabs" id="tabs"></div>
+<div class="pick"><label>Go to another country <input id="cty" list="ctys" placeholder="Type a country name" autocomplete="off"></label><datalist id="ctys"></datalist></div>
+<div class="chips" id="chips"></div>
+<div id="add"></div>
+<div class="map"><svg id="svg" role="img" aria-label="Schematic map"></svg></div>
+<div id="info">Tap a river to highlight its whole network, or tap any marker.</div>
+<p class="note">Prototype: positions are approximate and the outline is schematic. A full version would use real map tiles and boundaries.</p>
+</main>
+<script src="js/data.js"></script>
+<script src="data/world.js"></script>
+<script src="data/india.js"></script>
+<script src="js/app.js"></script>
+</body></html>
